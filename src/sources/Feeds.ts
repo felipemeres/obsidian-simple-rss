@@ -79,7 +79,7 @@ export default class Feeds {
 		let categories = "";
 		if (item.categories) {
 			item.categories.forEach((category: string) => {
-				categories += "- " + category + "\n";
+				categories += category;
 			});
 		}
 		return template
